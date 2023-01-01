@@ -1,0 +1,378 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.scrollable {
+  overflow-y: scroll;
+}
+.nav-header {
+  background-color: rgb(112, 167, 167);
+  flex: 1;
+  display: flex;
+}
+.nav-container {
+  flex: 1;
+  display: flex;
+}
+.nav-logo-box {
+  display: flex;
+  flex: 1;
+}
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+.logo-w {
+  height: 30px;
+}
+.logo-t {
+  height: 20px;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.nav-menu-box {
+  display: flex;
+  flex: 5;
+  align-items: center;
+  justify-content: center;
+}
+.menu-box {
+  flex: 1;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.menu-box a {
+  text-decoration: none;
+  color: rgb(32, 27, 27);
+  font-size: x-large;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 10px;
+}
+.menu-box a:hover {
+  cursor: pointer;
+  color: beige;
+}
+.nav-acount-box {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border-left: 2px solid;
+}
+.account {
+  flex: 1;
+}
+.account p {
+  padding: 5px;
+  text-align: center;
+  font-size: small;
+}
+.icon-box {
+  display: flex;
+  flex: 2;
+}
+.star-box {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.star-img img {
+  height: 30px;
+}
+.chart-box {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 2px solid;
+}
+
+.chart-img img {
+  height: 40px;
+}
+
+.counter-box {
+  flex: 1;
+  display: flex;
+}
+
+.counter-img {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.main-container {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+.aircraft {
+  display: flex;
+  background-color: darkseagreen;
+  height: 150px;
+}
+.aircraft-img {
+  flex-grow: 1;
+  background-image: url(./img-background/cover1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.luggage-galery {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+}
+.luggage-titel {
+  display: flex;
+  justify-content: start;
+  flex-grow: 1;
+}
+.luggage-titel-inherit p {
+  font-size: large;
+  letter-spacing: 1px;
+  padding: 5px 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.luggage-box-image {
+  display: flex;
+  flex: 5;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.luggage-box-image img {
+  height: 70px;
+}
+.image {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 10px;
+}
+.image p {
+  padding: 2px;
+  font-size: x-small;
+}
+.luggage-link {
+  display: flex;
+  flex: 1;
+  justify-content: end;
+}
+.luggage-link-link {
+  display: flex;
+  align-items: center;
+}
+.luggage-link-link a {
+  background-color: black;
+  text-decoration: none;
+  font-size: large;
+  padding: 5px 30px;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 10px;
+}
+.luggage-link-link:hover a {
+}
+
+.airport {
+  display: flex;
+  height: 150px;
+}
+.airport-img {
+  flex-grow: 1;
+  background-image: url(./img-background/parallax1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.rimova-text-container {
+  display: flex;
+  height: 150px;
+}
+
+.left-box {
+  display: flex;
+  flex: 1;
+}
+.left-bracket {
+  display: flex;
+  justify-content: center;
+}
+.left-bracket img {
+}
+.text-box-container {
+  display: flex;
+  flex: 8;
+  padding: 20px;
+}
+.text-box {
+  display: flex;
+  flex-direction: column;
+}
+.text-box p {
+  padding: 5px;
+  text-align: justify;
+}
+.rimova-box-container {
+  flex: 4;
+  display: flex;
+  flex-direction: column;
+  
+  
+}
+.rimova-img {
+  flex: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.rimova-img img {
+  height: 150px;
+}
+
+.right-box {
+  display: flex;
+  flex: 1;
+}
+.right-bracket {
+  display: flex;
+  flex: 1;
+}
+.right-bracket img {
+}
+.aircraft-out {
+  display: flex;
+  height: 150px;
+}
+.aircraft-out-img {
+  flex-grow: 1;
+  background-image: url(./img-background/parallax2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding: 20px;
+}
+.about-us-header h2 {
+  padding: 10px;
+}
+.about-us-text-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.about-us-text-box1 {
+  display: flex;
+  justify-content: center;
+}
+.about-us-text-box1-inner {
+  width: 50%;
+}
+.about-us-text-box1-inner q {
+  font-size: medium;
+  font-weight: 600;
+}
+.about-us-text-box2-inner {
+  display: flex;
+  flex-direction: column;
+}
+.about-us-text-box2-inner p {
+  padding: 10px;
+}
+
+.footer {
+  background-color: rgb(112, 167, 167);
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.footer-text {
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+}
+.logo-gov{
+  background-color: #0C3058;
+  height: 100px;
+  width: 100px;
+}
+
+@media screen and (max-width:460px){
+  
+  .nav-acount-box{
+    display: none;
+
+  }
+  .nav-container{
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .menu-box{
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+  .about-us-text-box1-inner {
+    width: 100%;
+  }
+}
+
+
+
+
+
+@media screen and (max-width:680px){
+  
+  .right-box{
+    display: none;
+  }
+  .left-box{
+    display: none;
+  }
+  
+  .image4, .image6{
+    display: none;
+  }
+   }
+
+@media screen and (max-width:1090px){
+    .rimova-box-container  {
+      display: none;
+      
+  }
+
+}
+
