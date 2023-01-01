@@ -1,2 +1,2 @@
 # Luggage
-Luggage page
+https://sgg-israel.github.io/Luggage/
