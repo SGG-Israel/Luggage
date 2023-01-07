@@ -174,7 +174,6 @@ button {
   overflow: hidden;
   justify-content: center;
   flex-wrap: nowrap;
-  border: 5px solid black;
 }
 .slider-line {
   width: 1200px;
@@ -189,7 +188,6 @@ button {
   width: 150px;
   display: flex;
   justify-content: center;
-  border: 2px solid red;
 }
 .left-next img,
 .right-next img {
