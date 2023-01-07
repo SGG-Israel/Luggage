@@ -153,12 +153,48 @@
   font-weight: 600;
   text-transform: uppercase;
 }
+.luggage-box-container {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  display: flex;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  align-items: center;
+  flex-shrink: 2;
+}
 
 .luggage-box-image {
+  position: relative;
+  height: 180px;
   display: flex;
-  flex: 5;
-  justify-content: space-around;
-  flex-wrap: wrap;
+  width: 1050px;
+  overflow: hidden;
+  justify-content: center;
+  flex-wrap: nowrap;
+  border: 5px solid black;
+}
+.slider-line {
+  width: 1200px;
+  position: absolute;
+  display: flex;
+  left: 0;
+  justify-content: center;
+  overflow: hidden;
+  transition: all ease 1s;
+}
+.box-image-container {
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid red;
+}
+.left-next img,
+.right-next img {
+  width: 50px;
+  margin: 10px 20px;
 }
 .luggage-box-image img {
   height: 70px;
@@ -168,12 +204,15 @@
   flex-direction: column;
   text-align: center;
   padding: 10px;
+  width: 80px;
 }
+
 .image p {
-  padding: 2px;
+  padding: 5px;
   font-size: x-small;
 }
 .luggage-link {
+  margin-top: 10px;
   display: flex;
   flex: 1;
   justify-content: end;
@@ -241,15 +280,12 @@
   flex: 4;
   display: flex;
   flex-direction: column;
-  
-  
 }
 .rimova-img {
   flex: 3;
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .rimova-img img {
   height: 150px;
@@ -323,24 +359,22 @@
   letter-spacing: 2px;
   font-size: 1.5rem;
 }
-.logo-gov{
-  background-color: #0C3058;
+.logo-gov {
+  background-color: #0c3058;
   height: 100px;
   width: 100px;
 }
 
-@media screen and (max-width:460px){
-  
-  .nav-acount-box{
+@media screen and (max-width: 460px) {
+  .nav-acount-box {
     display: none;
-
   }
-  .nav-container{
+  .nav-container {
     flex-direction: column;
     padding: 20px;
   }
-  
-  .menu-box{
+
+  .menu-box {
     flex-direction: column;
     text-align: center;
     padding: 10px;
@@ -350,29 +384,22 @@
   }
 }
 
-
-
-
-
-@media screen and (max-width:680px){
-  
-  .right-box{
+@media screen and (max-width: 680px) {
+  .right-box {
     display: none;
   }
-  .left-box{
+  .left-box {
     display: none;
   }
-  
-  .image4, .image6{
-    display: none;
-  }
-   }
 
-@media screen and (max-width:1090px){
-    .rimova-box-container  {
-      display: none;
-      
+  .image4,
+  .image6 {
+    /* display: none; */
   }
-
 }
 
+@media screen and (max-width: 1090px) {
+  .rimova-box-container {
+    display: none;
+  }
+}
