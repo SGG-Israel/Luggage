@@ -389,11 +389,6 @@ button {
   .left-box {
     display: none;
   }
-
-  .image4,
-  .image6 {
-    /* display: none; */
-  }
 }
 
 @media screen and (max-width: 1090px) {
